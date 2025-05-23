@@ -47,7 +47,7 @@ h1 {
 }
 
 .revolution-bar {
-  background-color: #d40000;
+  background-color: black;
   color: white;
   text-align: center;
   padding: 15px 0; /* dày hơn */
@@ -55,7 +55,7 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  border-bottom: 4px solid #00aaff; /* đường viền màu xanh dương */
+  border-bottom: 4px solid white; /* đường viền màu xanh dương */
   position: fixed;
   top: 0;
   width: 100%;
