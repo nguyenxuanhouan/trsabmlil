@@ -1,47 +1,71 @@
 body {
-      margin: 0;
-      background-color: black;
-      color: white;
-      font-family: Arial, sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      flex-direction: column;
-      text-align: center;
-    }
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 70px; /* để tránh bị thanh bar che mất nội dung */
+}
 
-    .logo {
-      width: 80px;
-      height: 80px;
-      margin-bottom: 20px;
-    }
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
 
-    h1 {
-      font-size: 36px;
-      margin-bottom: 20px;
-    }
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
 
-    .video-container {
-      width: 90%;
-      max-width: 600px;
-      margin-bottom: 20px;
-    }
+.video-container {
+  width: 90%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
 
-    .description {
-      font-size: 18px;
-      margin-bottom: 20px;
-    }
+.description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
 
-    .contact {
-      font-size: 16px;
-    }
+.contact {
+  font-size: 16px;
+}
 
-    .contact a {
-      color: #00ffff;
-      text-decoration: none;
-    }
+.contact a {
+  color: #00ffff;
+  text-decoration: none;
+}
 
-    .contact a:hover {
-      text-decoration: underline;
-    }
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Revolution Bar - Thanh cách mạng */
+.revolution-bar {
+  background-color: #d40000;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  animation: flash 1.5s infinite alternate;
+}
+
+/* Hiệu ứng chớp sáng cho thanh cách mạng */
+@keyframes flash {
+  0% { background-color: #d40000; }
+  100% { background-color: #ff3c3c; }
+}
