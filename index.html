@@ -2,49 +2,77 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TRSAB MiliTAryuthor</title>
-  <link rel="stylesheet" href="style.css">
+  <title>TRSAB MILITARYUTHOR</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .video-container {
+      width: 90%;
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .contact {
+      font-size: 16px;
+    }
+
+    .contact a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>ChatLog Giao Diện</h1>
-    <nav>
-      <a href="/">Trang Chủ</a>
-      <a href="/chatlog">ChatLogs</a>
-      <a href="/lienhe">Liên Hệ</a>
-    </nav>
-  </header>
+  <img src="https://exameplj.my.canva.site/_assets/media/b032f33b72836a96876f8d8efb99e802.png" alt="Logo" class="logo">
+  <h1>TRSAB MILITARYUTHOR</h1>
 
-  <main>
-    <section class="chatlog">
-      <div class="message user">
-        <strong>Bạn:</strong> Xin chào, đây là tin nhắn đầu tiên!
-      </div>
-      <div class="message bot">
-        <strong>Bot:</strong> Chào bạn! Mình có thể giúp gì hôm nay?
-      </div>
-    </section>
+  <div class="video-container">
+    <video autoplay muted loop playsinline width="100%">
+      <source src="your-video.mp4" type="video/mp4">
+      Trình duyệt của bạn không hỗ trợ video.
+    </video>
+  </div>
 
-    <section class="design-preview">
-      <h2>Xem thiết kế từ Canva</h2>
-      <div style="position: relative; width: 100%; height: 0; padding-top: 56.2225%;
-      padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
-      border-radius: 8px; will-change: transform;">
-        <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-          src="https://www.canva.com/design/DAGoPCMLvJQ/pMm_fvE_GnGIXXNPRtVrbQ/watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-        </iframe>
-      </div>
-      <p>
-        <a href="https://www.canva.com/design/DAGoPCMLvJQ/pMm_fvE_GnGIXXNPRtVrbQ/watch" target="_blank" rel="noopener">
-          Xem toàn bộ trên Canva (thiết kế bởi Xuan Hoa Battles Gaming Vietnam)
-        </a>
-      </p>
-    </section>
-  </main>
+  <div class="description">
+    It's not here yet, but we'll let you in on a secret.<br>
+    It's coming really, really soon. So sit tight and check back in July.<br>
+    You just might see something that will blow your socks off!
+  </div>
 
-  <footer>
-    <p>© 2025 ChatLog Prototype. Thiết kế bởi bạn.</p>
-  </footer>
+  <div class="contact">
+    Really excited to get in touch with us?<br>
+    Email us at <a href="mailto:nguyenxuanhouan@protonmail.com">nguyenxuanhouan@protonmail.com</a>
+  </div>
 </body>
 </html>
